@@ -23,10 +23,6 @@ features = ["serde", "clock"]
 version = "0.11"
 features = ["json"]
 
-[dependencies.tokio]
-version = "1"
-features = ["full"]
-
 [dependencies.serde]
 version = "1.0"
 features = ["derive"]
@@ -43,3 +39,7 @@ toml = "0.5.8"
 [dev-dependencies.config]
 version = "0.11.0"
 features = ["toml"]
+
+[dev-dependencies.tokio]
+version = "1"
+features = ["full"]
